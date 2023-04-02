@@ -1,0 +1,40 @@
+.cost_header{
+   margin-bottom: 20px;
+}
+
+
+
+.cost_form{
+   display: flex;
+   align-items: flex-end;
+   gap: 10px;
+}
+
+@media screen and (max-width:777px) {
+   .cost_form{
+      flex-direction: column;
+      align-items: center;
+   }
+   .form_el{
+      width: 90%;
+   }
+
+   
+}
+
+.total{
+   color: rgb(249, 142, 1);
+}
+
+.total_c{
+   font-size: 25px;
+   padding-top: 20px;
+   text-align: right;
+}
+
+
+
+.form_el{
+   
+}
+

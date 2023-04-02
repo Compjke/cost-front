@@ -1,0 +1,148 @@
+.cost_container {
+   display: flex;
+   flex-direction: column;
+   max-width: 90%;
+   margin: 0 auto;
+   padding: 0 15px;
+}
+
+@media screen and (max-width: 998px) {
+   .cost_container {
+      max-width: 100%;
+   }
+}
+@media screen and (max-width: 500px) {
+   .cost_container {
+      overflow-y: scroll;
+   }
+}
+
+.cost_title {
+   text-align: center;
+   margin: 30px 0;
+}
+
+.cost_item {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 15px;
+   border: 1px inset yellow;
+   box-shadow: inset 5px 5px 20px rgba(0, 0, 0, 0.215);
+   margin-bottom: 20px;
+}
+
+@media screen and (max-width: 998px) {
+   .cost_item {
+      padding: 10px;
+      font-size: 0.7em;
+   }
+   .btn1 {
+      font-size: 1em;
+   }
+   .left span{
+   flex-basis: auto;
+}
+}
+@media screen and (max-width: 668px) {
+   .cost_item {
+      width: 90%;
+      margin:0 auto 20px;
+   }
+
+   .left {
+      flex-direction: column;
+   }
+
+   .shop_edit,
+   .price_edit,
+   .date_edit {
+      width: 100%;
+   }
+}
+
+.left {
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   gap: 8px;
+   padding: 0 5px;
+   flex: 1 1 auto;
+}
+
+.left span:first-child{
+   flex-basis: 50%;
+}
+
+.rigth {
+   display: flex;
+   gap: 8px;
+}
+
+.change_btns {
+   display: flex;
+   gap: 8px;
+   align-items: center;
+}
+
+@media screen and (max-width: 575px) {
+   .change_btns {
+   flex-direction: column;
+}
+.btn_del{
+   align-self: center;
+}
+.left span{
+   align-self: flex-start;
+}
+
+.rigth{
+   flex-direction: column;
+}
+
+}
+
+.name,
+.price,
+.date {
+   margin-left: 10px;
+   font-size: 1.2em;
+}
+
+.name {
+   color: rgba(255, 145, 0, 0.789);
+}
+.date {
+   color: rgba(0, 140, 255, 0.627);
+}
+.price {
+   color: rgb(9, 180, 15);
+}
+
+.shop {
+}
+
+.shop_edit,
+.price_edit,
+.date_edit {
+   padding: 8px;
+   outline: none;
+   background: transparent;
+   border: 1px solid greenyellow;
+   border-radius: 10px;
+}
+
+.shop_edit {
+   color: rgba(255, 145, 0, 0.789);
+}
+.price_edit {
+   color: rgb(9, 180, 15);
+}
+.date_edit {
+   color: rgba(0, 140, 255, 0.627);
+}
+
+
+.size_spinner{
+   font-size: 14px;
+}

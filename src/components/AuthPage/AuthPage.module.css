@@ -1,0 +1,27 @@
+.auth_btn{
+   /* position: relative; */
+}
+
+.auth_label{
+   display: flex;
+   flex-direction: column;
+}
+
+
+.auth_label input{
+   outline: none;
+   padding: 10px 20px 10px;
+   border-radius: 20px;
+   transition: all .2s linear;
+}
+
+.auth_label input:focus{
+   font-size: 1.2em;
+   border: solid 2px rgb(249, 232, 3);
+}
+
+
+.auth_q{
+ margin-right: 10px;
+ font-size: 1.1em;
+}
